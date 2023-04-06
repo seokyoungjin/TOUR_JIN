@@ -240,6 +240,7 @@ footer .pit > p >img:nth-child(2){
     width: 80%;
     transform: translate(0px, 15px);
 }
+/* 사이드 메뉴 */
 aside{
     width: 100%;
     position: fixed; top:11%; right: -94%;
