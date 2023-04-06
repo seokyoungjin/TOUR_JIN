@@ -1,0 +1,41 @@
+@media (min-width: 1400px) and (max-width: 1619px){}
+
+@media (min-width: 1200px) and (max-width: 1399px){
+    .txt-1 > div > ul {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .txt-4 > .ing{
+        display: block;
+        width: auto;
+    }
+    .txt-4 > .ing > .ceo > figure{
+        padding: 0;
+        border: 0;
+        justify-content:stretch;
+    }
+    .txt-4 > .ing  >.qna{
+        padding-left: 0;
+    }
+    .work-job > ul{
+        width: 100%;
+        justify-content: space-around;
+    }
+    footer > .footer-warp{
+        width: 80%;
+    }
+    
+.work-job > ul > li {
+    padding: 40px 50px;
+}
+}
+/* 테블릿 */
+@media screen and (min-width:768px) and (max-width:1199px){}
+
+/* 모바일 */
+@media screen and (max-width:767px){}
+
+@media screen and (max-width:375px){
+
+}

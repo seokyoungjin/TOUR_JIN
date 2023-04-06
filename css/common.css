@@ -158,6 +158,7 @@ header > div > nav > ul > li > a:hover{
 .side-login > ul > li > .close_btn.active{display: block;}
 footer{
     width: 100%;
+    background-color: #eee;
     padding: 50px 0;
     
 }
@@ -241,45 +242,7 @@ footer .pit > p >img:nth-child(2){
     transform: translate(0px, 15px);
 }
 /* 사이드 메뉴 */
-aside{
-    width: 100%;
-    position: fixed; top:11%; right: -94%;
-}
-aside .side-meun{
-    width: 120px; height: 365px;
-}
-aside .side-meun > ul {
-    text-align: center;
-    border: 1px solid #000;
-}
-aside .side-meun > ul > li {
-    padding: 10px;
-    border-bottom: 1px solid
-}
-aside .side-meun > ul > li:nth-child(5){
-    border-bottom: 0;
-}
-aside .side-meun > ul > li:nth-child(1){
-    background: rgba(0,0,0,1.9);
-}
-aside .side-meun > ul > li:nth-child(2){
-    background: rgba(255, 255, 255, 0.8);
-}
-aside .side-meun > ul > li:nth-child(3){
-    background: rgba(255, 255, 255, 0.8);
-}
-aside .side-meun > ul > li:nth-child(5){
-    background: rgba(255, 255, 255, 0.8);
-}
-aside .side-meun > ul > li:nth-child(1)>a{
-    color: white;
-}
-aside .side-meun > ul > li:nth-child(4){
-    background-color: #635F5F;
-}
-aside .side-meun > ul > li:nth-child(4)>a{
-    color: white;
-}
+
 /*==============================================================================
 =========================================mobli==================================
 =================================================================================*/

@@ -7,6 +7,9 @@
     width: 100%;
     margin: 0 auto;
 } */
+body{
+    word-break: keep-all;
+}
 .pp{
     position: relative;
     width: 100%;
@@ -156,10 +159,13 @@
 }
 /* ceo 인사말 */
 .txt-4{
-    background-color: #D9D9D9;
+    
+    background-color: #d9d9d961;
     display: flex;
     justify-content: space-between;
-    padding: 100px;
+    /* padding-top: 5%;
+    padding-bottom: 3%; */
+    padding:  3% 0  4% 0;
 }
 .txt-4 > .ing {
     width:1400px;
@@ -172,11 +178,15 @@
     }
 .txt-4 > .ing > .ceo > h2{
     padding-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #000;
 }
 .txt-4 > .ing > .ceo > figure{
-    border: 1px solid #000;
-    display:flex;
-    justify-content: space-between;
+    border: 2px solid #8b8b8b67;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
 }
 .txt-4 > .ing > .ceo > figure > img {
     width: 30%;
@@ -185,7 +195,6 @@
     font-size: 20px;
     line-height: 1.6;
     width: 55%;
-    height: 284px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,17 +202,21 @@
 /* QNA  */
 .qna{
     width:700px;    
-    padding-left: 110px;
+    padding-left: 5%;
 }
 .qna > h2{
     padding-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #000;
 }
 .qna > figure {
     position: relative;
 }
 .qna > figure > img {}
 .qna > figure > div {
-    border: 1px solid #000;
+    border: 2px solid #8b8b8b67;
+
     background-color: rgba(145, 145, 145, 0.9);
     position: absolute; top: 0; 
     color: white;
